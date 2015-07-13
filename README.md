@@ -1,3 +1,3 @@
-# How to use Markdowns
+# Welcome to my GitHub Page!
 
-Markdown is a way of displaying text on the GitHub platform.
+Repository for the projects that I've been working on.
