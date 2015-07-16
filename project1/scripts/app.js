@@ -1,23 +1,25 @@
 $(document).ready(function() {
 
   console.log("All resources are loaded");
-
-/// sticky navagation menu --> hide banner
+  window.navBar = $('header').outerHeight();
+  // console.log(navBar)
+  
+/// sticky navagation menu --> hide banner --> NOT WORKING
   $(window).scroll(function() {
-    if ($(this).scrollTop() > 1) {
-      $('.main-nav').addClass(".sticky");
+    if ($(this).scrollTop() > navBar) {
+      // console.log($(this).scrollTop())
+      $('.main-nav').addClass("main-nav-scrolled");
     }
     else {
-      $('.main-nav').removeClass('.sticky');
+      $('.main-nav').removeClass('main-nav-scrolled');
   }
 });
 
-// Auto-scrolls to section based on navigation icons
+
+// Smoooooooth scrolling on navigation icons
 $('a').click(function(){
-  var navBar = 25+$('header').outerHeight();
-  console.log(navBar)
    $('html, body').animate({
-       scrollTop: $( $(this).attr('href') ).offset().top-navBar
+       scrollTop: $($(this).attr('href') ).offset().top
    }, 500,'swing');
    return false;
 });
@@ -66,7 +68,6 @@ app.sendEmail = function(emailData) {
   $('.success').hide();
   $('.error').hide();
 
-/*
   var ajaxData = {
     url: 'http://imperialholonet.herokuapp.com/api/mail',
     type: 'POST',
@@ -82,7 +83,8 @@ app.sendEmail = function(emailData) {
       $('.error').show()
     }
 };
-*/
+
+  /*
 var ajaxData = {
   url: 'http://imperialholonet.herokuapp.com/api/mail',
   type: 'GET',
@@ -92,6 +94,6 @@ var ajaxData = {
       console.log(data);
   },
 };
-
+*/
 $.ajax(ajaxData)
 }
