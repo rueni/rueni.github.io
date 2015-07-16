@@ -2,6 +2,27 @@ $(document).ready(function() {
 
   console.log("All resources are loaded");
 
+/// sticky navagation menu --> hide banner
+  $(window).scroll(function() {
+    if ($(this).scrollTop() > 1) {
+      $('.main-nav').addClass(".sticky");
+    }
+    else {
+      $('.main-nav').removeClass('.sticky');
+  }
+});
+
+// Auto-scrolls to section based on navigation icons
+$('a').click(function(){
+  var navBar = 25+$('header').outerHeight();
+  console.log(navBar)
+   $('html, body').animate({
+       scrollTop: $( $(this).attr('href') ).offset().top-navBar
+   }, 500,'swing');
+   return false;
+});
+
+
 // hide status messages
 $('.loading').hide();
 $('.success').hide();

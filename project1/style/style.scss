@@ -1,111 +1,228 @@
 @import 'variables.scss';
 
-
+///////////////Standard rules for the entire document ///////////
 #wrapper {
+    z-index: 1;  // base layout to be displayed underneath sticky nav
     font-size: $base-page-size;
-    background: $body-background;  //remove later
-    border: 2px solid black;
+    font-family: $body-font;
     text-align: center;
-
+    width: 100%;
+    h2 {
+      font-size: $font-size-headline;
+      font-weight: bold;
+    }
 }
 
-.container {
-  width: $wrapper-phone;
-  font-family: $body-font;
-  font-size: $base-page-size;
-  margin: auto;
-  h2 {
-    font-size: $font-size-headline;
-  }
-  .banner {
-   padding-left: 5%;
-   background-color: white;
-   border: 2px solid black;
+///////////////Header and Navigation Menu///////////
+header {
+  background-color: white;
+  top: 0;
+  width: 100%;
+  position: fixed;
+  border: 1px solid black;
     img {
-      width: 50%;
-      height: 50%;
+      width: 35%;
+      }
+    .main-nav {
+      position: fixed;
+      z-index: 2;
+      height: 33px;
+      width: 100%;
+      border-top: 2px solid black;
+      background-color: gray;
+      font-size: $font-size-navbar;
+      font-weight: bold;
+      a {
+        margin: 0px 0px 0px 40px;
+        border-radius: $radius;
+        border: 2px solid black;
+        padding: 0px 10px 0px 10px;
+        color: black;
+        background-color: rgba(20,200,0,0.3);
+      }
     }
   }
-  .site-nav {
-    padding: 10px;
-    background: $navbar-background;
-  }
-    #nav-list {
-       background: black;
-       border: 7px solid black;
-       border-radius: 10px;
-     }
-       .nav-item {
-         display: inline;
-         padding: 0px 40px 0px 40px;
-         border: 2px solid black;
-         background-color: white;
-         font-size: $font-size-navbar;
-         font-weight: bold;
-        }
-        .intro{
-          font-family: $body-font;
-          font-size: $base-page-size;
-          margin: 0 auto;
-          overflow:hidden;
-          position:relative;
-          .about {
-            float: left;
-            min-height: 300px;
-            max-width: 500px;
-          }
-          .rides {
-            float: right;
-            min-height: 300px;
-            max-width: 500px;
-          }
-        }
-    }
+  // .sticky {
+  //     position: fixed;
+  //     width: 100%;
+  //     left: 0;
+  //     top: 0;
+  //     z-index: 100;
+  //     border-top: 0;
+  // }
 
-.profile_pic {
-  min-height: 400px;
-  width: auto;
-  border: 2px solid black;
-  .roster_pic {
-    padding: 40px 40px 40px 40px;
+///////////////Main section - About and Rides section///////////
+#about{
+  font-size: $base-page-size;
+  margin: 0 auto;
+  padding-top: 150px;
+  float: left;
+  .about {
+    float: left;
+    min-height: 300px;
+    max-width: 47%;
+    margin: 13px;
+  }
+  .rides {
+    float: right;
+    min-height: 300px;
+    max-width: 47%;
+    margin: 13px;
   }
 }
 
+///////////////Team description + rider pic and bio section ///////////
+#roster {
+  .roster {
+    height: auto;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    float: right;
+  }
+  .rider_bio {
+    float: right;
+    height: auto;
+    width: 100%;
+    .profile_pic {
+      display: inline-block;
+      border: 2px solid black;
+      margin: 10px 10px 10px 10px;
+      padding: 10px 10px 10px 10px;
+    }
+    .feed {
+      p {
+      float: right;
+      text-align: center;
+      height: auto;
+      width: 100%;
+      }
+    }
+  }
+}
+///////////////Sponsor Section including Logos ///////////
 .sponsor_list {
   width: auto;
   min-height: 400px;
-  border: 2px solid black;
   #turin {
-    width: 500px;
-    height: 500px;
-  #lifeline {
-    width: 300px;
-    height: 300px;
-    }
+    max-width: 40%;
   }
+  #lifeline {
+    max-width: 60%;
+    }
 }
 
-.contact {
+///////////////Contact us section including forms ///////////
+#contact {
   width: auto;
   min-height: 400px;
-  border: 2px solid black;
   #user_name {
     width: 200px;
-    height: 50px;
+    height: 30px;
+    font-size: $font-size-standard;
     border: 2px solid black;
+    text-align: center;
+  }
   #user_email {
     width: 200px;
-    height: 50px;
+    height: 30px;
+    font-size: $font-size-standard;
     border: 2px solid black;
-    }
+    text-align: center;
+  }
+  #user_request {
+    width: 50%;
+    height: 5em;
+    font-size: $font-size-standard;
+    border: 2px solid black;
+    text-align: center;
+  }
+  #form_send {
+    width: 200px;
+    height: 30px;
+    font-size: $font-size-standard;
+    border: 2px solid black;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color:  rgba(50, 200, 0, 0.5);
   }
 }
 
 
+///////////////Footer and closing section ///////////
 footer {
   width: $wrapper-phone;
   font-family: $body-font;
   font-size: $base-page-size;
   background: $navbar-background;
-  margin: auto;
+  margin: 0 auto;
 }
+
+
+
+@media (max-width: 1030px) {
+  .main{
+    width: 100%;
+    font-size: $base-page-size;
+    padding-top: 250px;
+    float: left;
+    position: relative;
+    margin: 0 auto;
+    .about {
+      float: none;
+      min-height: 300px;
+      width: 100%;
+    }
+    .rides {
+      float: none;
+      min-height: 300px;
+      width: 100%;
+    }
+  }
+}
+// // media queries for responsive design
+// @media (min-width: $device-phone) {
+//   #phone {
+//     display:block;
+//   }
+// }
+//
+// @media (min-width: $device-tablet) {
+//   #wrapper {
+//     width: $wrapper-tablet;
+//   }
+//   //delete these when done
+//   #phone {
+//     display:none;
+//   }
+//   #tablet {
+//     display: block;
+//   }
+//   //end delete
+//   .nav-item {
+//     display: inline-block;
+//     list-style: square;
+//     padding: $font-size-standard;
+//   }
+//
+// }
+//
+// @media (min-width: $device-laptop) {
+//   #wrapper {
+//     width: $wrapper-laptop;
+//   }
+//
+//   // delete these when done
+//   #phone {
+//     display:none;
+//   }
+//   #tablet {
+//     display: none;
+//   }
+//   #laptop {
+//     display: block;
+//   }
+//   // end delete
+// }
