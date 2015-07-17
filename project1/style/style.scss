@@ -35,7 +35,7 @@ position: relative;
     position: relative;
     width: 100%;
     z-index: 2;
-    border: 2px solid black;
+    border: 1px solid black;
     background-color: gray;
     font-size: $font-size-navbar;
     font-weight: bold;
@@ -84,7 +84,7 @@ position: relative;
 #about{
   font-size: $base-page-size;
   margin: 0 auto;
-  padding-top: 75px;
+  padding-top: 50px;
   float: left;
   .about {
     float: left;
@@ -209,29 +209,46 @@ footer {
   border-left: 1px solid black;
   border-bottom: 1px solid black;
   text-align: center;
-
-
 }
 
-
-
-@media (max-width: 1030px) {
-  .main{
+@media (max-width: 890px) {
+  .main-nav {
+    }
+    a {
+      font-size: 1rem;
+    }
+  #about {
     width: 100%;
     font-size: $base-page-size;
-    padding-top: 250px;
-    float: left;
-    position: relative;
-    margin: 0 auto;
+    padding-top: 50px;
+    // float: left;
     .about {
       float: none;
-      min-height: 300px;
       width: 100%;
+      max-width: 85%;
     }
     .rides {
       float: none;
-      min-height: 300px;
-      width: 100%;
+      max-width: 85%;
+    }
+  }
+
+    #roster {
+      max-width: 85%;
+    }
+    #sponsors {
+      max-width: 85%;
+    }
+    #contact {
+      max-width: 85%
+    }
+
+
+@media (max-width: 500px) {
+  .main-nav {
+    }
+    a {
+      font-size: .85rem;
     }
   }
 }

@@ -2,8 +2,7 @@ $(document).ready(function() {
 
   console.log("All resources are loaded");
   window.navBar = $('header').outerHeight();
-  // console.log(navBar)
-  
+
 /// sticky navagation menu --> hide banner --> NOT WORKING
   $(window).scroll(function() {
     if ($(this).scrollTop() > navBar) {
@@ -15,11 +14,11 @@ $(document).ready(function() {
   }
 });
 
-
 // Smoooooooth scrolling on navigation icons
 $('a').click(function(){
+    console.log(navBar);
    $('html, body').animate({
-       scrollTop: $($(this).attr('href') ).offset().top
+       scrollTop: $($(this).attr('href') ).offset().top-navBar
    }, 500,'swing');
    return false;
 });
