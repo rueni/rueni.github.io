@@ -215,6 +215,7 @@ footer {
   .main-nav {
     }
     a {
+      // margin: 0 auto;
       font-size: 1rem;
     }
   #about {
@@ -224,24 +225,37 @@ footer {
     // float: left;
     .about {
       float: none;
-      width: 100%;
+      margin: 0 auto;
       max-width: 85%;
     }
     .rides {
       float: none;
+      margin: 0 auto;
       max-width: 85%;
     }
   }
-
     #roster {
       max-width: 85%;
+      margin: 0 auto;
+      p {
+      text-align: center;
+      }
     }
     #sponsors {
       max-width: 85%;
+      margin: 0 auto;
+      p {
+      text-align: center;
+      }
     }
     #contact {
-      max-width: 85%
+      max-width: 90%;
+      margin: 0 auto;
+      p {
+      text-align: center;
+      }
     }
+  }
 
 
 @media (max-width: 500px) {
@@ -250,7 +264,6 @@ footer {
     a {
       font-size: .85rem;
     }
-  }
 }
 // // media queries for responsive design
 // @media (min-width: $device-phone) {

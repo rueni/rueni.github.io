@@ -180,21 +180,31 @@ footer {
     padding-top: 50px; }
     #about .about {
       float: none;
-      width: 100%;
+      margin: 0 auto;
       max-width: 85%; }
     #about .rides {
       float: none;
+      margin: 0 auto;
       max-width: 85%; }
 
   #roster {
-    max-width: 85%; }
+    max-width: 85%;
+    margin: 0 auto; }
+    #roster p {
+      text-align: center; }
 
   #sponsors {
-    max-width: 85%; }
+    max-width: 85%;
+    margin: 0 auto; }
+    #sponsors p {
+      text-align: center; }
 
   #contact {
-    max-width: 85%; } }
-@media (max-width: 890px) and (max-width: 500px) {
+    max-width: 90%;
+    margin: 0 auto; }
+    #contact p {
+      text-align: center; } }
+@media (max-width: 500px) {
   a {
     font-size: .85rem; } }
 
