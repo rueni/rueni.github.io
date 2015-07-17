@@ -49,6 +49,8 @@ app.createFormObject = function() {
   retJson.userEmail = $('#user_email').val();
   retJson.request = $('#user_request').val();
 
+
+// These aren't working, but should be built out
   // retJson.type_road = $('#type_road').val();
   // retJson.type_cross = $('#type_cross').val();
   // retJson.type_track = $('#type_track').val();
