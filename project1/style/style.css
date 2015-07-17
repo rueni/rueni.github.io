@@ -87,6 +87,9 @@ main {
   text-align: center;
   margin: 0 auto;
   float: right; }
+#roster p {
+  width: 85%;
+  margin: 0 auto; }
 #roster .rider_bio {
   float: right;
   height: auto;
@@ -94,18 +97,20 @@ main {
   #roster .rider_bio .profile_pic {
     display: inline-block;
     border: 2px solid black;
-    margin: 5px 5px 5px 5px;
+    margin: 5px 10px 5px 10px;
     padding: 5px 5px 5px 5px;
     background-color: white; }
   #roster .rider_bio .feed p {
     float: right;
     text-align: center;
     height: auto;
-    width: 100%; }
+    width: 85%;
+    margin: 0 auto; }
 
 .sponsor_list {
-  width: auto;
-  min-height: 400px; }
+  margin: 0 auto;
+  min-height: 400px;
+  width: 85%; }
   .sponsor_list #turin {
     max-width: 40%; }
   .sponsor_list #lifeline {

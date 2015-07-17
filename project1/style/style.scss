@@ -109,6 +109,10 @@ position: relative;
     margin: 0 auto;
     float: right;
   }
+  p {
+    width: 85%;
+    margin: 0 auto;
+  }
   .rider_bio {
     float: right;
     height: auto;
@@ -116,7 +120,7 @@ position: relative;
     .profile_pic {
       display: inline-block;
       border: 2px solid black;
-      margin: 5px 5px 5px 5px;
+      margin: 5px 10px 5px 10px;
       padding: 5px 5px 5px 5px;
       background-color:white;
     }
@@ -125,15 +129,18 @@ position: relative;
       float: right;
       text-align: center;
       height: auto;
-      width: 100%;
+      width: 85%;
+      margin: 0 auto;
       }
     }
   }
 }
 ///////////////Sponsor Section including Logos ///////////
 .sponsor_list {
-  width: auto;
+  margin: 0 auto;
   min-height: 400px;
+  width: 85%;
+
   #turin {
     max-width: 40%;
   }
