@@ -1,4 +1,15 @@
 Rails.application.routes.draw do
+
+  get 'api/list' => 'api#list'
+  post 'api/create' => 'api#create'
+  get 'api/read/:id'=> 'api#read'
+  put 'api/update/:id' => 'api#update'
+  patch 'api/update/:id'=> 'api#update'
+  delete 'api/destroy/:id' => 'api#destroy'
+
+  resources :restaurants
+ root "restaurants#index"
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

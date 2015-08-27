@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>LTHForumGnr</title>
+  <title>LTHForum - GNR</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  <%= stylesheet_link_tag 'application', 'http://fonts.googleapis.com/css?family=Raleway:400,700' %>
 </head>
 <body>
+<header>This is your Header</header><hr>
 
-<%= yield %>
+<%= yield %><hr>
 
+<footer>This is your Footer</footer>
 </body>
 </html>
