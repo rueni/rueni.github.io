@@ -1,0 +1,41 @@
+
+<script type="text/javascript" id='roulette-template'>
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title"><%%= title %></h3>
+  </div>
+  <div class="panel-body">
+    <p><%%= description %></p><br><hr>
+    <p><%%= address + ', ' + city + ' ' + state + ' ' + zip %></p>
+    <p><%%= '<a href="tel:' + phone_number + '">Call</a>' %></p><hr>
+    <p><%%= '<a href="' + website + '" target="_blank">Link</a>' %></p><hr>
+    <p><%%= '<a href="' + lth_review + '" target="_blank">Review</a>' %></p>
+  </div>
+</div>
+
+</script>
+
+<div class="content-wrapper">
+  <div id="content">
+
+    <h2>Welcome!</h2>
+    <p>
+      Dining out is an important part of my life and like most folks, I first look to Yelp to research a restaurant but often times, I find myself wasting a lot of time reading the reviews and even worse, this has resulted in quite a few bad experiences!  This was a common occurence in my household until I discovered <a href="http://www.lthforum.com/">LTH Forum</a>. If you're not familiar with the site, it is a forum for foodies in the Chicagoland area.
+    </p>
+    <p>
+      The forum members are dedicated and honest with their opinions and it provides hope to those who have been burned one too many time by online reviews, which you just can't trust anymore.
+    </p>
+    <p>
+      Each year, the members of LTH Forum publish a 'Great Neighborhood Restaurants' list, and this site was created to offer a better user experience navigating the list of restaurants on that list.  Please visit the links on the left to see more about the site and more about LTH Forum.
+    </p>
+  </div>
+
+  <h3>Need a quick recommendation?</h3>
+  <button type="button" class="random">Spin Wheel!</button>
+
+  <section id="roulette-result">
+<!-- backbone result here -->
+  </section>
+
+</div>

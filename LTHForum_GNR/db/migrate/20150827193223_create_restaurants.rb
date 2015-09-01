@@ -12,6 +12,7 @@ class CreateRestaurants < ActiveRecord::Migration
       t.date :date_added
       t.string :website
       t.string :lth_review
+      t.string :cuisine_type
 
       t.timestamps null: false
     end

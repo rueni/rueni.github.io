@@ -8,7 +8,11 @@ Rails.application.routes.draw do
   delete 'api/destroy/:id' => 'api#destroy'
 
   resources :restaurants
- root "restaurants#index"
+  root "restaurants#home"
+  get "/about", to: 'restaurants#about'
+  get "/developer", to: 'restaurants#developer'
+  get "/index", to: 'restaurants#index'
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

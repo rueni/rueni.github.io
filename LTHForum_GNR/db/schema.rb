@@ -35,6 +35,7 @@ ActiveRecord::Schema.define(version: 20150827232413) do
     t.date     "date_added"
     t.string   "website"
     t.string   "lth_review"
+    t.string   "cuisine_type"
     t.datetime "created_at",             null: false
     t.datetime "updated_at",             null: false
   end

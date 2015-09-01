@@ -1,6 +1,6 @@
 class ApiController < ApplicationController
-  before_filter :restriction_developer, except: [:create, :update, :destroy]
-  before_filter :restriction_admin
+  # before_filter :restriction_developer, except: [:create, :update, :destroy]
+  before_filter :restriction
 
   def list
     @place = Restaurant.all
@@ -40,6 +40,7 @@ def restaurant_params
   :state => params[:state],
   :zip => params[:zip],
   :phone_number => params[:phone_number],
+  :cuisine_type => params[:cuisine_type],
   :notes => params[:notes],
   :date_added => params[:date_added],
   :website => params[:website],
@@ -52,18 +53,8 @@ def authenticate
   end
 end
 
-def headers
-   @headers ||= ActionController::Http::Headers.new(@env)
-end
 
-def restriction_admin
-  authenticate_or_request_with_http_token do |token, options|
-  ApiKey.exists?(access_token: token)
-  end
-end
-
-def restriction_developer
-  request.headers["Authorization"]
+def restriction
   authenticate_or_request_with_http_token do |token, options|
   ApiKey.exists?(access_token: token)
   end

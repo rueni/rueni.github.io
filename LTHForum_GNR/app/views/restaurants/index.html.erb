@@ -1,1 +1,40 @@
-<h3>This is your main landing page</h3>
+
+<script type="text/javascript">
+  var global = global || {};
+  global.apiKey = '<%= @key %>';
+</script>
+
+<script type="text/javascript" id='gnr-template'>
+<tr>
+  <td><%%= title %></td>
+  <td><%%= cuisine_type %></td>
+  <td><%%= description %></td>
+  <td><%%= address + ', ' + city + ' ' + state + ' ' + zip %></td>
+  <td><%%= '<a href="tel:' + phone_number + '">Call</a>' %></td>
+  <td><%%= '<a href="' + website + '" target="_blank">Link</a>' %></td>
+  <td><%%= '<a href="' + lth_review + '" target="_blank">Review</a>' %></td>
+</tr>
+</script>
+
+<div class="content-wrapper">
+
+  <div class="table_wrapper">
+    <table cellpadding="1" cellspacing="1" id="resultTable" class="table-bordered table-content">
+      <thead>
+        <tr>
+          <th class="sortable"><strong>Name</strong></th>
+          <th class="sortable"><strong>Cuisine Type</strong></th>
+          <th><strong>Description</strong></th>
+          <th><strong>Address</strong></th>
+          <th><strong>Phone</strong></th>
+          <th><strong>Website</strong></th>
+          <th><strong>Forum Review</strong></th>
+        </tr>
+      </thead>
+      <tbody id="gnr-list">
+<!-- Insert Backbone Table Here -->
+      </tbody>
+    </table>
+  </div>
+
+</div>
