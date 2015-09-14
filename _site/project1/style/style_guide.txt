@@ -1,0 +1,40 @@
+Project 1 Style Guide:
+
+Purpose: To document the layout of the CSS style sheet used on the Lifeline Racing website.
+
+//////////////////////////////////////////////////////////////////////////////
+
+Layout: Responsive single page website with a sticky navigation bar and 5 main sections throughout the site.
+
+-Max Width: 960px
+-font-family: Google News Cycle, with a backup of sans-serif
+-font-size: standard 17px using rem method to dictate specific font size
+-Accommodate multiple devices, utilizing media query for mobile phones and tablets.
+-Utilize jQuery animations and effects to enhance user experience.
+-background color TBD
+-Browser compatibility should accommodate all of the main web browsers.
+
+/////////////////////////////////////////////////////////////////////////////
+
+Content:  Content will be split out between 5 sections + header/footer.
+
+Header: Sticky navigation bar with internal links to the various sections.
+
+Article: About section --> Include a brief history of the club and outline it's mission and goals.
+
+**Article: Good time to ride app?  Wishlist item for ajax call to weather API.  Should return to the user with a message******
+
+Article: Roster section --> Brief one line filler + images of the team members. Incorporate jQuery hover over effect to slide down rider biography.
+
+Article: Ride feed section - Strava feed of the team activity should be displayed here.
+
+Article: Sponsor section - Logos with links to the sponsor sites.  Include a line for potential sponsors and parners to contact the team if interested.
+
+Article: Contact section - Include a form to direct an email to the team email address for coordinate all communcation.
+
+///////////////////////////////////////////////////////////////////////////////
+
+Future enhancements:
+
+Team blog posts
+Photo corral

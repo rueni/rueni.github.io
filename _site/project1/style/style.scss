@@ -1,0 +1,318 @@
+@import 'variables.scss';
+
+///////////////Standard rules for the entire document ///////////
+#wrapper {
+    z-index: 1;  // base layout to be displayed underneath sticky nav
+    font-size: $base-page-size;
+    font-family: $body-font;
+    text-align: center;
+    width: 100%;
+    background-color: lightgray;
+    border: 1px solid black;
+    h2 {
+      font-size: $font-size-section-title;
+      font-weight: bold;
+    }
+}
+
+///////////////Header and Navigation Menu///////////
+header {
+  background-color: white;
+  top: 0;
+  width: 100%;
+  padding-top: 0px;
+  // position: fixed; // Remove when sticky nav bar is fixed
+  border: 1px solid black;
+    img {
+      width: 35%;
+      }
+    }
+
+  main {
+position: relative;
+  }
+  .main-nav {
+    position: relative;
+    width: 100%;
+    z-index: 2;
+    border: 1px solid black;
+    background-color: gray;
+    font-size: $font-size-navbar;
+    font-weight: bold;
+    box-shadow: 0 2px 3px rgba(0,0,0,.4);
+    a {
+      margin: 0px 0px 0px 40px;
+      border-radius: $radius;
+      border: 2px solid black;
+      padding: 0px 10px 0px 10px;
+      color: black;
+      background-color: rgba(20,200,0,0.6);
+      text-decoration: none !important;
+    }
+    .hvr-fade {
+      display: inline-block;
+      vertical-align: middle;
+      -webkit-transform: translateZ(0);
+      transform: translateZ(0);
+      box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+      -moz-osx-font-smoothing: grayscale;
+      overflow: hidden;
+      -webkit-transition-duration: 0.3s;
+      transition-duration: 0.3s;
+      -webkit-transition-property: color, background-color;
+      transition-property: color, background-color;
+    }
+    .hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
+      background-color: #2098d1;
+      color: white;
+    }
+  }
+
+  // temporary hold for invisible nav bar container
+  .main-nav-scrolled {
+      position: fixed;
+      width: 100%;
+      left: 0;
+      top: 0;
+      z-index: 100;
+      border-top: 0;
+  }
+
+///////////////Main section - About and Rides section///////////
+#about{
+  font-size: $base-page-size;
+  margin: 0 auto;
+  padding-top: 50px;
+  float: left;
+  .about {
+    float: left;
+    min-height: 300px;
+    max-width: 47%;
+    margin: 13px;
+  }
+  .rides {
+    float: right;
+    min-height: 300px;
+    max-width: 47%;
+    margin: 13px;
+  }
+}
+
+///////////////Team description + rider pic and bio section ///////////
+#roster {
+  .roster {
+    height: auto;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    float: right;
+  }
+  p {
+    width: 85%;
+    margin: 0 auto;
+  }
+  .rider_bio {
+    float: right;
+    height: auto;
+    width: 100%;
+    .profile_pic {
+      display: inline-block;
+      border: 2px solid black;
+      margin: 5px 10px 5px 10px;
+      padding: 5px 5px 5px 5px;
+      background-color:white;
+    }
+    .feed {
+      p {
+      float: right;
+      text-align: center;
+      height: auto;
+      width: 85%;
+      margin: 0 auto;
+      }
+    }
+  }
+}
+///////////////Sponsor Section including Logos ///////////
+.sponsor_list {
+  margin: 0 auto;
+  min-height: 400px;
+  width: 85%;
+
+  #turin {
+    max-width: 40%;
+  }
+  #lifeline {
+    max-width: 60%;
+    }
+}
+
+///////////////Contact us section including forms ///////////
+#contact {
+  width: auto;
+  min-height: 400px;
+  #user_name {
+    width: 200px;
+    height: 30px;
+    font-size: $font-size-standard;
+    border: 2px solid black;
+    text-align: center;
+  }
+  #user_email {
+    width: 200px;
+    height: 30px;
+    font-size: $font-size-standard;
+    border: 2px solid black;
+    text-align: center;
+  }
+  #user_request {
+    width: 50%;
+    height: 5em;
+    font-size: $font-size-standard;
+    border: 2px solid black;
+    text-align: center;
+  }
+  #form_send {
+    width: 200px;
+    height: 30px;
+    font-size: $font-size-standard;
+    border: 3px solid black;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .hvr-fade {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    overflow: hidden;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
+  }
+  .hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
+    background-color: #2098d1;
+    color: white;
+  }
+}
+
+///////////////Footer and closing section ///////////
+footer {
+  width: 100%;
+  font-family: $body-font;
+  font-size: $base-page-size;
+  background: $navbar-background;
+  margin: 0 auto;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+
+@media (max-width: 890px) {
+  .main-nav {
+    }
+    a {
+      // margin: 0 auto;
+      font-size: 1rem;
+    }
+  #about {
+    width: 100%;
+    font-size: $base-page-size;
+    padding-top: 50px;
+    // float: left;
+    .about {
+      float: none;
+      margin: 0 auto;
+      max-width: 85%;
+    }
+    .rides {
+      float: none;
+      margin: 0 auto;
+      max-width: 85%;
+    }
+  }
+    #roster {
+      max-width: 85%;
+      margin: 0 auto;
+      p {
+      text-align: center;
+      }
+    }
+    #sponsors {
+      max-width: 85%;
+      margin: 0 auto;
+      p {
+      text-align: center;
+      }
+    }
+    #contact {
+      max-width: 90%;
+      margin: 0 auto;
+      p {
+      text-align: center;
+      }
+    }
+  }
+
+
+@media (max-width: 500px) {
+  .main-nav {
+    }
+    a {
+      font-size: .85rem;
+    }
+}
+// // media queries for responsive design
+// @media (min-width: $device-phone) {
+//   #phone {
+//     display:block;
+//   }
+// }
+//
+// @media (min-width: $device-tablet) {
+//   #wrapper {
+//     width: $wrapper-tablet;
+//   }
+//   //delete these when done
+//   #phone {
+//     display:none;
+//   }
+//   #tablet {
+//     display: block;
+//   }
+//   //end delete
+//   .nav-item {
+//     display: inline-block;
+//     list-style: square;
+//     padding: $font-size-standard;
+//   }
+//
+// }
+//
+// @media (min-width: $device-laptop) {
+//   #wrapper {
+//     width: $wrapper-laptop;
+//   }
+//
+//   // delete these when done
+//   #phone {
+//     display:none;
+//   }
+//   #tablet {
+//     display: none;
+//   }
+//   #laptop {
+//     display: block;
+//   }
+//   // end delete
+// }

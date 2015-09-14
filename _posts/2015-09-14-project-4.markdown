@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "Project #4: Creating a Post in Jekyll"
+description: This is an example of how to add a new post.
+date:   2015-09-14 10:34:07
+categories: project portfolio javascript tutorial diy
+---
+
+## Summary of Project
+
+Insert something about this project, who it was for and why I did it.
+
+## Project Images
+
+*Screenshots go here*
+![http://www.hdpaperwall.com/wp-content/uploads/2014/03/30.-A-little-red-panda-by-Harimao-Lee.jpg](http://www.hdpaperwall.com/wp-content/uploads/2014/03/30.-A-little-red-panda-by-Harimao-Lee.jpg)
+
+## Technologies Used
+
+- HTML
+- CSS
+- Javascript
+
+## Live Website
+
+- *Add a link here if it is legally ok to do so.. If no, do not include this section*
+
+- *Optional - Add a link to Github as well*

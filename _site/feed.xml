@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My portfolio</title>
+    <description>Welcome to my portfolio showcase
+</description>
+    <link>https://rueni.github.io/</link>
+    <atom:link href="https://rueni.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 14 Sep 2015 11:22:33 -0500</pubDate>
+    <lastBuildDate>Mon, 14 Sep 2015 11:22:33 -0500</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Todo by Friday</title>
+        <description>&lt;h2 id=&quot;portfolio-requirements&quot;&gt;Portfolio Requirements&lt;/h2&gt;
+
+&lt;p&gt;It is the final 3 weeks of the ‘in-class’ portion of WDI, i.e. the independence section! During this section, you are to deliver a portfolio site complete with your pair programming project and the below listed applications. Each should be their own github repository.&lt;/p&gt;
+
+&lt;h2 id=&quot;classical-mvc-pair-programming&quot;&gt;Classical MVC (Pair Programming)&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Sinatra or Rails&lt;/li&gt;
+  &lt;li&gt;Authentication + Single Model C.R.U.D.&lt;/li&gt;
+  &lt;li&gt;Use the Classic MVC pattern&lt;/li&gt;
+  &lt;li&gt;One-To-Many (Users have many x)&lt;/li&gt;
+  &lt;li&gt;ActiveRecord&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Examples:&lt;/em&gt;
+    &lt;ul&gt;
+      &lt;li&gt;ToDo App&lt;/li&gt;
+      &lt;li&gt;Note App&lt;/li&gt;
+      &lt;li&gt;Twitter Like App&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;sinatra-or-express-spa--revise-first-project&quot;&gt;Sinatra or Express SPA -Revise first project&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A “Sign-Up” or “Contact Form” style application&lt;/li&gt;
+  &lt;li&gt;Must be responsive and tested on mobile phone(s)&lt;/li&gt;
+  &lt;li&gt;As a user, I can enter in my name, email, etc. so I can ‘sign-up’ to be contacted later&lt;/li&gt;
+  &lt;li&gt;Or I can send someone a message somehow.&lt;/li&gt;
+  &lt;li&gt;Utilize Mandrill or similar service to send emails to your clients&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;api---lth-forum&quot;&gt;API -&amp;gt; LTH Forum&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Use any framework/language of your choice to build an API!&lt;/li&gt;
+  &lt;li&gt;Sinatra, Express, Rails allowed. .NET, Django, others will be considered.&lt;/li&gt;
+  &lt;li&gt;We’re going to build a RESTful API for a single model!&lt;/li&gt;
+  &lt;li&gt;You just need to serve data. No rendering anything.&lt;/li&gt;
+  &lt;li&gt;Don’t give stangers create/update/delete access.
+Test with CocoaRest / Postman&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 14 Sep 2015 05:34:07 -0500</pubDate>
+        <link>https://rueni.github.io/project/portfolio/todo/2015/09/14/todo.html</link>
+        <guid isPermaLink="true">https://rueni.github.io/project/portfolio/todo/2015/09/14/todo.html</guid>
+        
+        
+        <category>project</category>
+        
+        <category>portfolio</category>
+        
+        <category>todo</category>
+        
+      </item>
+    
+      <item>
+        <title>Project #4: Creating a Post in Jekyll</title>
+        <description>&lt;h2 id=&quot;summary-of-project&quot;&gt;Summary of Project&lt;/h2&gt;
+
+&lt;p&gt;Insert something about this project, who it was for and why I did it.&lt;/p&gt;
+
+&lt;h2 id=&quot;project-images&quot;&gt;Project Images&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Screenshots go here&lt;/em&gt;
+&lt;img src=&quot;http://www.hdpaperwall.com/wp-content/uploads/2014/03/30.-A-little-red-panda-by-Harimao-Lee.jpg&quot; alt=&quot;http://www.hdpaperwall.com/wp-content/uploads/2014/03/30.-A-little-red-panda-by-Harimao-Lee.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;technologies-used&quot;&gt;Technologies Used&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;HTML&lt;/li&gt;
+  &lt;li&gt;CSS&lt;/li&gt;
+  &lt;li&gt;Javascript&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;live-website&quot;&gt;Live Website&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;Add a link here if it is legally ok to do so.. If no, do not include this section&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;Optional - Add a link to Github as well&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 14 Sep 2015 05:34:07 -0500</pubDate>
+        <link>https://rueni.github.io/project/portfolio/javascript/tutorial/diy/2015/09/14/project-4.html</link>
+        <guid isPermaLink="true">https://rueni.github.io/project/portfolio/javascript/tutorial/diy/2015/09/14/project-4.html</guid>
+        
+        
+        <category>project</category>
+        
+        <category>portfolio</category>
+        
+        <category>javascript</category>
+        
+        <category>tutorial</category>
+        
+        <category>diy</category>
+        
+      </item>
+    
+      <item>
+        <title>Your portfolio</title>
+        <description>&lt;h2 id=&quot;welcome-to-your-portfolio&quot;&gt;Welcome to your portfolio!&lt;/h2&gt;
+
+&lt;p&gt;Add some &lt;em&gt;content&lt;/em&gt; and &lt;strong&gt;awesomeness&lt;/strong&gt; using &lt;code&gt;markdown&lt;/code&gt;!&lt;/p&gt;
+</description>
+        <pubDate>Fri, 05 Jun 2015 05:34:07 -0500</pubDate>
+        <link>https://rueni.github.io/portfolio/update/2015/06/05/portfolio.html</link>
+        <guid isPermaLink="true">https://rueni.github.io/portfolio/update/2015/06/05/portfolio.html</guid>
+        
+        
+        <category>portfolio</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Welcome to Jekyll!</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 01 Jun 2015 05:34:07 -0500</pubDate>
+        <link>https://rueni.github.io/jekyll/update/2015/06/01/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">https://rueni.github.io/jekyll/update/2015/06/01/welcome-to-jekyll.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+  </channel>
+</rss>
