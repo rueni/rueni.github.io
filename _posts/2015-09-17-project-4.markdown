@@ -17,7 +17,7 @@ Inst@pic is NodeJS application using AngularJS for the frontend and Instagram AP
 
 <hr>
 
-- Frontend rendered using Backbone<br>
+- Frontend rendered using Angular<br>
 <img src="http://i.imgur.com/Xp9N3zV.png" alt="Drawing" style="width: 400px;"/>
 
 ## Technologies Used
@@ -31,5 +31,6 @@ Inst@pic is NodeJS application using AngularJS for the frontend and Instagram AP
 
 ## Live Website
 
-It's not yet live, but feel free to view my source code on Github. <br>
-https://github.com/rueni/photo_app
+<p>It's not yet live, but feel free to view my source code on
+<a href="https://github.com/rueni/photo_app" title="With a Title">Github</a>.
+</p>

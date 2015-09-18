@@ -34,5 +34,6 @@ A RESTful API built on Rails with a database of Great Neighborhood Restaurants c
 
 ## Live Website
 
-Deployed on Heroku  -->
-  https://github.com/rueni/photo_app
+<p>This project is deployed on
+<a href="hhttp://lthforum-gnr.herokuapp.com/" >Heroku</a>.
+</p>
