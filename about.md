@@ -4,8 +4,10 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+![http://imgur.com/gphMWek](http://imgur.com/gphMWek)
+![http://www.hdpaperwall.com/wp-content/uploads/2014/03/30.-A-little-red-panda-by-Harimao-Lee.jpg](http://www.hdpaperwall.com/wp-content/uploads/2014/03/30.-A-little-red-panda-by-Harimao-Lee.jpg)
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+Hello! My name is Chris Kim and I live in Chicago, IL. I am a recent graduate of General Assembly's Web Development Intensive program and this site was created to showcase some of the work I've completed during my time in the program, as well as projects I've been working on in my own time outside of class.
+
+On my spare time, I spend quite a bit of my time learning more about web development.  But when I'm not coding, I spend a lot of time cycling and exploring the outdoors.
