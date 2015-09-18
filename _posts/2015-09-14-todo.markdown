@@ -6,22 +6,6 @@ date:   2015-09-14 10:34:07
 categories: project portfolio Todo
 ---
 
-## Portfolio Requirements
-
-It is the final 3 weeks of the 'in-class' portion of WDI, i.e. the independence section! During this section, you are to deliver a portfolio site complete with your pair programming project and the below listed applications. Each should be their own github repository.
-
-## Classical MVC (Pair Programming)
-
-- Sinatra or Rails
-- Authentication + Single Model C.R.U.D.
-- Use the Classic MVC pattern
-- One-To-Many (Users have many x)
-- ActiveRecord
-- *Examples:*
-  - ToDo App
-  - Note App
-  - Twitter Like App
-
 ## Sinatra or Express SPA -Revise first project
 
 - A "Sign-Up" or "Contact Form" style application
@@ -29,12 +13,3 @@ It is the final 3 weeks of the 'in-class' portion of WDI, i.e. the independence 
 - As a user, I can enter in my name, email, etc. so I can 'sign-up' to be contacted later
 - Or I can send someone a message somehow.
 - Utilize Mandrill or similar service to send emails to your clients
-
-## API -> LTH Forum
-
-- Use any framework/language of your choice to build an API!
-- Sinatra, Express, Rails allowed. .NET, Django, others will be considered.
-- We're going to build a RESTful API for a single model!
-- You just need to serve data. No rendering anything.
-- Don't give stangers create/update/delete access.
-Test with CocoaRest / Postman

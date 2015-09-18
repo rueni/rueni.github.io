@@ -6,7 +6,7 @@
 
 
 // Our variables
-$base-font-family: Hind, Helvetica, Arial, sans-serif;
+$base-font-family: Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -51,3 +51,11 @@ $on-laptop:       800px;
         "layout",
         "syntax-highlighting"
 ;
+
+/**
+ * Other custom styling
+ */
+
+#profile_pic {
+  border-radius: 5px;
+}
