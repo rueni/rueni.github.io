@@ -7,7 +7,7 @@ categories: project portfolio ruby rails backbone javascript RESTful
 ---
 
 ## Project Background
-LTHForum.com is a Chicago-based Internet chat community focused on all things culinary. It’s especially interested in identifying small, out-of-the-way eateries that many locals and visitors may not have discovered yet. The application was inspired by the awesome list of Great Neighborhood Restaurants published each year by the members LTH Forum and if you've ever walked into a restaurant and found one of these hanging up on the wall near the entrance...chance are, you're in the a good spot.
+LTHForum.com is a Chicago-based Internet chat community focused on all things culinary. It’s especially interested in identifying small, out-of-the-way eateries that many locals and visitors may not have discovered yet. The application was inspired by the awesome list of Great Neighborhood Restaurants published each year by the members LTH Forum and if you've ever walked into a restaurant and found one of these hanging up on the wall near the entrance...well, you're in the right spot.
 
 <img src="http://www.lthforum.com/cert/Smoque.jpg" alt="Drawing" style="width: 500px;"/>
 
