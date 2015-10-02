@@ -26,7 +26,6 @@ images from the Instagram server based on the users geolocation.
 ## Technologies Used
 
 - HTML5/CSS
-- SASS
 - Bootstrap
 - JavaScript
 - NodeJS
