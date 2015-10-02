@@ -34,7 +34,6 @@ build out applications using the database of restaurants on the list.
 - Ruby on Rails
 - Heroku
 - HTML5/CSS
-- SASS
 - Bootstrap
 - BackboneJS
 - jQuery
