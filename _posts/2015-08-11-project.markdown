@@ -1,0 +1,40 @@
+---
+layout: post
+title:  "Wishlist"
+description: Classical MVC with full CRUD functionality
+date:   2015-08-14 10:34:07
+categories: project portfolio sinatra ruby pair programming
+---
+
+## Summary of Project
+
+This was our first foray into pair programming and to MVC design patterns.  Wishlist is a
+user authenticated web application, that allows registered users to create a list of "wants" and "haves."
+ The idea behind the application was to create a platform where users can transact with others based on
+matching attributes of list items in the database.  The application features a PostgreSQL database
+built on a Sinatra framework and allows for full CRUD functionality.  The matching of "wants" and "haves" will be incorporated into the second iteration of development.
+
+## Project Images
+- Landing Page <br>
+<img id="profile_pic" src="https://camo.githubusercontent.com/d9d35845333642f1d3d1a7031941ff228c93e134/687474703a2f2f692e696d6775722e636f6d2f477572333246432e6a7067" alt="Drawing" style="width: 500px;"/>
+
+
+## Technologies Used
+
+- HTML5
+- CSS
+- JavaScript
+- jQuery
+- Sinatra
+- ActiveRecord
+- Inkscape
+- SQL
+- Ruby
+- PostgreSQL
+- Bootstrap
+
+## Live Website
+
+<p>It's not yet live, but feel free to view my source code on
+<a href="https://github.com/wdi-kratos/WishList" title="With a Title">Github</a>.
+</p>

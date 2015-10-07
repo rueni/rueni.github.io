@@ -8,7 +8,10 @@ categories: project portfolio node angular instagram api
 
 ## Summary of Project
 
-Inst@pic is NodeJS application using AngularJS for the frontend and Instagram API. It features a search query to allow the user to retrieve Instagram images based on either location or hashtag.
+This is version 1.0 of a NodeJS web application using the Instagram API. This project was my introduction to consuming
+data from other sources, as well as rendering it out on the front-end using AngularJS.  It features a search
+query to allow the user to retrieve Instagram images based on a hashtag and it also fetches nearby
+images from the Instagram server based on the users geolocation.
 
 ## Project Images
 - Landing Page <br>
@@ -23,13 +26,13 @@ Inst@pic is NodeJS application using AngularJS for the frontend and Instagram AP
 ## Technologies Used
 
 - HTML5/CSS
-- SASS
 - Bootstrap
 - JavaScript
 - NodeJS
 - AngularJS
 
 ## Live Website
+* *** My MacBook decided to give out on me this week and it's currently being serviced at the Apple Store.  I plan to host it on either Digital Ocean or Heroku*
 
 <p>It's not yet live, but feel free to view my source code on
 <a href="https://github.com/rueni/photo_app" title="With a Title">Github</a>.

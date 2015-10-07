@@ -1,0 +1,51 @@
+---
+layout: post
+title:  "Great Neighborhood Restaurants"
+description: A RESTful API built on Rails and BackboneJS
+date:   2015-09-04 10:34:07
+categories: project portfolio ruby rails backbone javascript RESTful
+---
+
+## Project Background
+LTHForum.com is a Chicago-based Internet chat community focused on all things culinary. It’s especially interested in identifying small, out-of-the-way eateries that many locals and visitors may not have discovered yet. The application was inspired by the awesome list of Great Neighborhood Restaurants published each year by the members LTH Forum and if you've ever walked into a restaurant and found one of these hanging up on the wall near the entrance...well, you're in the right spot.
+
+<img src="http://www.lthforum.com/cert/Smoque.jpg" alt="Drawing" style="width: 500px;"/>
+
+## Summary of Project
+This application is a RESTful API built on Rails with a database of Great Neighborhood Restaurants off of
+the LTH Forum website. Currently, the GNR list is managed on the forum and it can be somewhat difficult
+to navigate the list. This API was created to better manage the data on the site and to allow developers to
+build out applications using the database of restaurants on the list.
+
+
+## Project Images
+- Landing Page <br>
+<img src="http://i.imgur.com/x3SFUqB.png" alt="Drawing" style="width: 500px;"/>
+
+<hr>
+
+- Frontend rendered using Backbone<br>
+<img src="http://i.imgur.com/oaDkm4f.png" alt="Drawing" style="width: 500px;"/>
+
+
+## Technologies Used
+
+- PostgreSQL
+- Ruby on Rails
+- Heroku
+- HTML5/CSS
+- SASS
+- Bootstrap
+- BackboneJS
+- jQuery
+- underscoreJS
+
+## Live Website
+
+<p>This project is deployed on
+<a href="http://lthforum-gnr.herokuapp.com/" >Heroku</a>.
+</p>
+
+<p>And if you're interested in viewing the source code, click
+<a href="https://github.com/rueni/lth_gnr" title="With a Title">here</a>.
+</p>
